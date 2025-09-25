@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: knowledge-base-qa
+#  servlet:
+#    multipart:
+#      max-file-size: 20MB
+#      max-request-size: 20MB
+  ai:
+    openai:
+      api-key: ${KEYSZUNS_DEEPSEEK_API_KEY} # 替换为你的DeepSeek API密钥
+      base-url: https://api.deepseek.com # DeepSeek API地址
+      chat:
+        options:
+          model: deepseek-chat # 使用DeepSeek模型
+  elasticsearch:
+    uris: http://localhost:9200
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
