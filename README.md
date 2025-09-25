@@ -3,6 +3,9 @@
 ## 项目简介
 这是一个基于Spring Boot和RAG（检索增强生成）技术的知识问答系统。该系统允许用户上传文档，然后基于这些文档内容进行智能问答，支持流式输出回答结果。
 
+## 对应的前端
+git clone git@github.com:keyszuns/AI-Agent-Front-End.git
+
 ## 技术栈
 - **后端框架**：Spring Boot 3.5.5
 - **编程语言**：Java 17
@@ -31,7 +34,7 @@
 ### 安装步骤
 1. **克隆项目**
 ```bash
-git clone https://your-repository-url/knowledge-base.git
+git clone git@github.com:keyszuns/AI-Agent.git
 cd knowledge-base
 ```
 
